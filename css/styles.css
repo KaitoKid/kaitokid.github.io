@@ -142,36 +142,3 @@ input:focus, textarea:focus {
     opacity: 0;
     filter: alpha(opacity=0);
 }
-
-
-.text-overlay
-{
-  position: absolute;
-  top: 50%; left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.text-overlay h1
-{
-  font-size: 4.2rem;
-  white-space: nowrap;
-  color: white;
-}
-
-canvas {
-  display: block;
-  vertical-align: bottom;
-}
-
-/* ---- particles.js container ---- */
-
-#particles-js {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: #000000;
-  background-image: url("http://i.imgur.com/lJa0s0k.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
-}
